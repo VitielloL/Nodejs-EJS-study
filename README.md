@@ -1,3 +1,3 @@
-# Study-Nodejs-EJS-Rocketseat
+# Study-Nodejs-EJS
 
-Estudo de Nodejs e Nodejs + EJS - Rocketseat
+Nodejs + EJS
