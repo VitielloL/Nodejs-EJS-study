@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../template/head'); %>
+<body class="container pt-5">
+    <%- include('../template/header'); %>
+    <div class="jumbotron">
+        <h1>Nodejs + EJS</h1>
+        <p><%= subtitle %></p>
+    </div>
+    <ul>
+        <% socialNetworks.forEach(function(socialNetwork){%>
+            <li>
+                <strong><%= socialNetwork.title %></strong> <%= socialNetwork.message %>
+            </li>
+        <% }) %>
+    </ul>
+    <%- include('../template/footer'); %>
+</body>
+</html>
