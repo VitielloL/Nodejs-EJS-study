@@ -1,10 +1,11 @@
-# 100
+# Status Code
+## 100
 * 100  Continue: indica que tudo ocorreu bem até agora e que o cliente deve continuar com a requisição ou ignorar se já concluiu o que gostaria.
 * 101  Switching Protocol: código enviado em resposta a um cabeçalho de solicitação Upgrade (enUS) pelo cliente, e indica o protocolo a que o servidor está alternando.
 * 102  Processing (WebDAV (enUS)): indica que o servidor recebeu e está processando a requisição, mas nenhuma resposta está disponível ainda.
 * 103  Early Hints: tem o objetivo de ser utilizado com o cabeçalho Link, indicando que o agente deve iniciar a précarregar (enUS) recursos enquanto o servidor prepara uma resposta.
 
-# 200
+## 200
 * 201  Created: a requisição foi bem sucedida e um novo recurso foi criado como resultado. Esta é uma típica resposta enviada após uma requisição POST.
 * 202  Accepted: a requisição foi recebida mas nenhuma ação foi tomada sobre ela. Isto acontece em casos onde outro processo ou servidor lida com a requisição, ou para processamento em lote.
 * 203  NonAuthoritative Information: o conjunto de metainformações retornadas não é o conjunto exato disponível no servidor de origem, mas coletado de uma cópia local ou de terceiros. 
@@ -12,7 +13,7 @@
 * 205  Reset Content: enviada após realizada a solicitação para informar ao user agent redefinir a visualização do documento que enviou essa solicitação.
 * 206  Partial Content: usada por causa do cabeçalho de intervalo enviado pelo cliente para separar o download em vários fluxos.
 
-# 300
+## 300
 * 300  Multiple Choice: a requisição tem mais de uma resposta possível. 
 * 301  Moved Permanently: a URL do recurso requerido mudou. Provavelmente, a nova URL será especificada na resposta.
 * 302  Found: a URL do recurso requerido foi mudada temporariamente. 
@@ -22,7 +23,7 @@
 * 307  Temporary Redirect: possui a mesma semântica do código 302 Found, com a exceção de que o useragent não deve mudar o método HTTP utilizado.
 * 308  Permanent Redirect: significa que o recurso agora está permanentemente localizado em outra URL
 
-# 400
+## 400
 * 400  Bad Request: Solicitação Inválida
 * 401  Unauthorized: Não autorizado
 * 402  Payment Required: Pagamento necessário
@@ -42,7 +43,7 @@
 * 416  Request Range Not Satisfiable: Solicitação de faixa não satisfatória
 * 417  Expectation Failed: Falha na expectativa
 
-# 500
+## 500
 * 501  Not Implemented: o método da requisição não é suportado pelo servidor e não pode ser manipulado;
 * 502  Bad Gateway: o servidor, ao trabalhar como um gateway a fim de obter uma resposta necessária para manipular a requisição, obteve uma resposta inválida;
 * 503  Service Unavailable: o servidor não está pronto para manipular a requisição. Causas comuns são um servidor em manutenção ou sobrecarregado;
