@@ -1,4 +1,5 @@
 # Status Code
+Os códigos de status das respostas HTTP indicam se uma requisição HTTP foi corretamente concluída ou não.
 ## 100
 * 100  Continue: indica que tudo ocorreu bem até agora e que o cliente deve continuar com a requisição ou ignorar se já concluiu o que gostaria.
 * 101  Switching Protocol: código enviado em resposta a um cabeçalho de solicitação Upgrade (enUS) pelo cliente, e indica o protocolo a que o servidor está alternando.
