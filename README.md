@@ -3,6 +3,8 @@
 Estudo de: Nodejs + EJS + StatusCode + Api
 
 * StatusCode
+    - Lista de todos os principais status code
+  
 * EJS/server: 
     - Backend em Nodejs
     - Frontend componentizado utilizando EJS
