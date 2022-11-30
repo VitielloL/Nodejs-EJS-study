@@ -1,6 +1,6 @@
 # Study-Nodejs-EJS
 
-Nodejs + EJS
+Estudo de: Nodejs + EJS + StatusCode + Api
 
 * StatusCode
 * EJS/server: 
