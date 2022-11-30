@@ -6,6 +6,7 @@ Nodejs + EJS
 * EJS/server: 
     - Backend em Nodejs
     - Frontend componentizado utilizando EJS
+
 * PureNode:
     - /BestMe : Aplicação com node feito de perguntas que trazem uma reflexão diaria (envia uma pergunta e escuta uma resposta).
     - /EventModule/event : Escuta o evento 1 vez / Sempre ouve o evento
@@ -17,6 +18,7 @@ Nodejs + EJS
     - /Timers/clearTimeout : Cancela o setTimeout
     - /Timers/setInterval : Roda a função n vezes dps de x milissegundos
     - /Timers/setTimeout : Inicial a função até o tempo solicitado dela
+    
 * APIBasicNode
     - /apiGithub : escuta a api do github utilizando axios e express
     - /index : diversos exemplos de possibilidades de rotas utilizando node e expressa
