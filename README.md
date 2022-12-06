@@ -1,4 +1,4 @@
-# Nodejs-EJS-Study
+# Nodejs-EJS-study
 
 Estudo de: Nodejs + EJS + StatusCode + Api
 
